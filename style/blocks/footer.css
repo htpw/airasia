@@ -1,0 +1,57 @@
+.footer{
+  height: 146px;
+}
+.footer__line{
+ border-top: 4px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer__logo{
+  margin-top: 15px;
+}
+
+.menu--footer{
+  margin-right: 271px;
+  margin-top: 57px;
+  margin-left: 79px;
+}
+
+.footer__social{
+  display: inline-block;
+  margin-right: 6px;
+  position: relative;
+  top: 11px;
+}
+
+.footer__social:last-child{
+  margin-right: 0px;
+}
+
+.footer__socials{
+  display: inline-block;
+  margin-right: 69px;
+  position: relative;
+}
+
+.footer__contacts{
+  display: inline-block;
+  position: relative;
+}
+
+.footer__contacts-free{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  color: #9A9A9A;
+  text-align: right;
+  position: relative;
+  top: 8px;
+}
+
+.footer__phone{
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 20px;
+  color: #fff;
+  position: relative;
+  top: 15px;
+}
