@@ -1,0 +1,32 @@
+.about{
+  margin-bottom: 95px;
+  position: relative;
+}
+.about__image{
+  display: inline-block;
+  position: relative;
+}
+.about__content{
+  position: absolute;
+  bottom: -42px;
+  right: 384px;
+  background: url(../../img/mountains.png);
+  width: 785px;
+  height: 455px;
+  border-radius: 5px;
+  padding: 74px 202px 74px 81px;
+}
+.title--dark{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000;
+  margin-bottom: 42px;
+}
+.about__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #060606;
+  margin-bottom: 56px;
+}

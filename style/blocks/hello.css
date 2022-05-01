@@ -1,0 +1,26 @@
+.hello{
+  margin-bottom: 264px;
+}
+.hello__title{
+  max-width: 511px;
+  max-height: 197px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 93px;
+  margin-bottom: 30px;
+}
+
+.hello__subtitle{
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 48px;
+  }
+
+  a.button{
+    font-weight: 700;
+    font-size: 14px;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    text-transform: uppercase;
+  }
