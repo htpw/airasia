@@ -114,6 +114,9 @@ address{
 }
 
 .contacts__info{
+	position: relative;
+    	bottom: 4px;
+    	right: 3px;
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 20px;
