@@ -1,4 +1,8 @@
 .header{
   height: 77px;
-  margin-bottom: 126px;
+  margin-bottom: 122px;
+}
+
+a.menu__link:hover{
+  color: #DA0100;
 }

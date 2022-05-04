@@ -115,8 +115,8 @@ address{
 
 .contacts__info{
 	position: relative;
-    	bottom: 4px;
-    	right: 3px;
+	bottom: 4px;
+	right: 3px;
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 20px;
@@ -124,26 +124,44 @@ address{
 	text-decoration: underline;
 }
 
-.paginator, .paginator__item, .paginator__list{
+.paginator, .paginator__item, .paginator__list, .paginator__link{
 	display: inline-block;
 }
 
 .paginator{
-	margin-right: 33px;
+	margin-right: 21px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
 }
 
 .paginator__item{
-	margin-right: 21px;
+	position: relative;
+	margin-right: -2px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 21px;
+	text-align: center;
+}
+
+.paginator{
+  margin-left: 381px;
+}
+
+.paginator__link{
+	width: 32px;
+	height: 32px;
+}
+
+a.paginator__link:hover{
+ 	color: #F5170E;
+  background: #FFF;
+  border-radius: 50%;
 }
 
 paginator__item:last-child{
 	margin-right: 0px;
 }
+
 
 

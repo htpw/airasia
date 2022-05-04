@@ -1,15 +1,16 @@
 .about{
-  margin-bottom: 95px;
+  margin-bottom: 55px;
   position: relative;
+}
+.about__image, .about__content{
+  display: inline-block;
 }
 .about__image{
-  display: inline-block;
-  position: relative;
+  vertical-align: top;
 }
 .about__content{
-  position: absolute;
-  bottom: -42px;
-  right: 384px;
+  margin-left: -142px;
+  margin-top: 96px;
   background: url(../../img/mountains.png);
   width: 785px;
   height: 455px;
@@ -28,5 +29,5 @@
   font-size: 16px;
   line-height: 27px;
   color: #060606;
-  margin-bottom: 56px;
+  margin-bottom: 42px;
 }
