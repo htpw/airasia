@@ -2,18 +2,24 @@
   margin-bottom: 55px;
   position: relative;
 }
-.about__image, .about__content{
-  display: inline-block;
+.about__container{
+  display: flex;
+  align-items: flex-start;
 }
 .about__image{
-  vertical-align: top;
+  display: inline-block;
 }
 .about__content{
-  margin-left: -142px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: -136px;
   margin-top: 96px;
   background: url(../../img/mountains.png);
-  width: 785px;
-  height: 455px;
+  background-repeat: no-repeat;
+  max-width: 785px;
+  max-height: 455px;
   border-radius: 5px;
   padding: 74px 202px 74px 81px;
 }
@@ -22,12 +28,13 @@
   font-size: 36px;
   line-height: 42px;
   color: #000;
-  margin-bottom: 42px;
+  margin-bottom: 0px;
+  padding-bottom: 42px;
 }
 .about__text{
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
   color: #060606;
-  margin-bottom: 42px;
+  padding-bottom: 42px;
 }

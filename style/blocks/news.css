@@ -1,28 +1,30 @@
 .news{
-  margin-bottom: 139px;
+  margin-bottom: 7.5%;
 }
 .news__list{
-  margin-bottom: 52px;
+  display: flex;
+  margin-bottom: 5.4%;
+  flex: 1;
 }
-.news__item{
-  display: inline-block;
-}
+
 
 .news__image{
   border-radius: 5px;
 }
 .news__item{
-  margin-right: 20px;
   position: relative;
+  margin-right: 2%;
 }
 .news__item:last-child{
-  margin-right: 0px;
+  margin-right: 0%;
 }
 .news__content{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   position: absolute;
-  top: 224px;
-  z-index: 1;
-  padding: 26px 29px;
+  bottom: 0px;
+  padding: 0px 29px;
 }
 time{
   display: inline-block;
@@ -41,7 +43,6 @@ time{
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  width: 483px;
-  height: 69px;
+  margin-bottom: 48px;
 }
 

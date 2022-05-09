@@ -4,8 +4,7 @@ html {
 	font-style: normal;
 }
 
-body,
-html {
+body, html {
 	height: 100%;
 }
 
@@ -20,6 +19,17 @@ body {
 	background: url(../../img/background.png);
 	background-repeat: no-repeat;
 }
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100%;
+	overflow: hidden;
+	min-width: 1200px;
+}
+
+
 
 button {
 	border: 0;
@@ -81,43 +91,35 @@ address{
 	display: inline-block;
 }
 
-.logo, .contacts{
-	margin-top: 29px;
-}
-
 .logo{
-	float: left;
-}
-
-.contacts{
-	float: right;
+	padding-right: 79px;
 }
 
 .menu{
-	margin-top: 40px;
-	margin-left: 79px;
+	padding-top: 8px;
 }
 
 .menu__item{
-	margin-right: 50px;
+	padding-right: 50px;
 	font-weight: 400;
 	font-size: 14px;
 }
 
 .menu__item:last-child{
-	margin-right: 0px;
+	padding-right: 0px;
+}
+
+.contacts{
+	padding-top: 12px;
 }
 
 .contacts__phone{
 	font-weight: 400;
 	font-size: 26px;
-	line-height: 30px;
+	/*line-height: 30px;*/
 }
 
 .contacts__info{
-	position: relative;
-	bottom: 4px;
-	right: 3px;
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 20px;
@@ -125,28 +127,31 @@ address{
 	text-decoration: underline;
 }
 
-.paginator, .paginator__item, .paginator__list, .paginator__link{
+	.paginator__link{
 	display: inline-block;
 }
 
 .paginator{
-	margin-right: 21px;
+	display: flex;
+	justify-content: center;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
 }
 
+.paginator__display{
+	margin-right: 25px;
+}
+
+.paginator__list{
+	display: flex;
+}
+
 .paginator__item{
-	position: relative;
-	margin-right: -2px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 21px;
 	text-align: center;
-}
-
-.paginator{
-  margin-left: 381px;
 }
 
 .paginator__link{

@@ -3,38 +3,41 @@
 }
 .footer__line{
   border-top: 4px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__col{
+display: flex;
+align-items: flex-start;
+}
+
+.footer__col--align-right{
+  display: flex;
+  align-items: flex-end;
 }
 
 .footer__logo{
-  margin-top: 15px;
+  padding-top: 45px;
 }
 
-.menu--footer{
-  margin-right: 271px;
-  margin-top: 57px;
-  margin-left: 79px;
+.footer__menu{
+  padding-top: 57px;
+  padding-right: 271px;
+}
+
+.social{
+  margin-right: 69px;
+  padding-top: 49px;
 }
 
 .footer__social{
   display: inline-block;
   margin-right: 6px;
-  position: relative;
-  top: 11px;
 }
 
 .footer__social:last-child{
   margin-right: 0px;
-}
-
-.footer__socials{
-  display: inline-block;
-  margin-right: 69px;
-  position: relative;
-}
-
-.footer__contacts{
-  display: inline-block;
-  position: relative;
 }
 
 .footer__contacts-free{
@@ -43,8 +46,6 @@
   line-height: 20px;
   color: #9A9A9A;
   text-align: right;
-  position: relative;
-  top: 8px;
 }
 
 .footer__phone{
@@ -52,6 +53,8 @@
   font-size: 26px;
   line-height: 20px;
   color: #fff;
-  position: relative;
-  top: 15px;
 }
+
+
+
+

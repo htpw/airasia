@@ -1,6 +1,22 @@
 .header{
-  padding-bottom: 14px;
-  margin-bottom: 122px;
+  padding-bottom: 115px;
+}
+
+.header__container{
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col{
+  display: flex;
+  align-items: center;
+}
+
+.header__col--allign-right{
+  display: flex;
+  justify-content: flex-end;
 }
 
 a.menu__link:hover{

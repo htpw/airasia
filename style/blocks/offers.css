@@ -16,7 +16,11 @@
 
 .offers__item, .offers__feature, .offers__feature-text, .offers__feature-img{
   display: inline-block;
+}
 
+.offers__list{
+  display: flex;
+  justify-content: space-between;
 }
 
 .offers__img{
@@ -24,6 +28,10 @@
 }
 
 .offers__contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   background: #FFF;
   border-radius: 0px 0px 5px 5px;
   width: 362px;
@@ -35,7 +43,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .fearute__list{
@@ -53,7 +61,6 @@ padding-right: 11px;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
- 
 }
 
 .offers__feature{
@@ -70,14 +77,6 @@ padding-right: 11px;
   font-size: 14px;
   line-height: 21px;
   margin-bottom: 24px;
-}
-
-.offers__item{
-  margin-right: 23px;
-}
-
-.offers__item:last-child{
-  margin-right: 0px;
 }
 
 a.button--light{

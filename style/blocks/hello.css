@@ -1,9 +1,14 @@
 .hello{
   margin-bottom: 249px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 333px;
+  width: 45%;
+  align-items: flex-start;  
 }
+
 .hello__title{
-  max-width: 511px;
-  max-height: 197px;
   font-weight: 700;
   font-size: 72px;
   line-height: 96px;

@@ -1,0 +1,161 @@
+.top-line{
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  background: url(../../img/headline.png);
+}
+
+.top-line__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.top-line__header{
+  padding-bottom: 0px;
+}
+
+.page-title{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+}
+
+.breadcrumbs__list{
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item{
+  display: flex;
+  align-items: center;
+  color: #9A9A9A;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.breadcrumbs__item--active{
+  font-weight: 700;
+}
+
+.breadcrumbs__item::after{
+  content: "/";
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.breadcrumbs__item:last-child:after{
+  display: none;
+}
+
+.breadcrumbs__link{
+  text-decoration: underline;
+}
+
+.page-content{
+  padding: 94px 0 63px;
+  background: #F2F2F2;
+  color: #303030;
+}
+
+.services{
+  padding-bottom: 20px;
+}
+
+.services__item{
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.services__image{
+  width: 40.5%;
+  margin-right: 5%;
+}
+
+.services__data{
+  flex: 1;
+  padding-top: 15px;
+}
+
+.services__title{
+  color: #000;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 34px;
+}
+
+.services__desc{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 35px;
+}
+
+
+a.button--clear{
+  background-color: #F2F2F2;
+  color: #F5170E;
+  border: 1px solid #F5170E;
+}
+
+a.button--clear:hover{
+  background: #F5170E;
+  color: #FFF;
+}
+
+.services__paginator{
+  color:#000;
+}
+
+a.paginator__link:hover{
+  color: #fff;
+  background: #F5170E;
+  border-radius: 50%;
+}
+
+.partners{
+  background: #F4F5F5;
+  min-height: 550px;
+}
+
+.partners__title{
+  padding: 107px 0 87px;
+  color: #1A1B1E; 
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.partners__list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partners__item{
+  display: flex;
+  filter: grayscale(1);
+  width: 250px;
+  height: 70px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 58px;
+}
+
+.partners__item:hover{
+  filter: grayscale(0);
+}
+
+.services__footer{
+  background: #001821;
+  padding-bottom: 40px;
+}
+
+.inner__logo{
+  padding-right: 67px;
+}

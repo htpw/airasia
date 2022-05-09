@@ -1,3 +1,4 @@
+@import url(./normalize.css);
 @import url(./blocks/base.css);
 @import url(./blocks/header.css);
 @import url(./blocks/hello.css);
@@ -5,3 +6,4 @@
 @import url(./blocks/news.css);
 @import url(./blocks/about.css);
 @import url(./blocks/footer.css);
+@import url(./blocks/services.css);
