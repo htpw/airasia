@@ -56,13 +56,13 @@
 }
 
 .page-content{
-  padding: 94px 0 63px;
+  padding: 94px 0 71px;
   background: #F2F2F2;
   color: #303030;
 }
 
 .services{
-  padding-bottom: 20px;
+  padding-bottom: 13px;
 }
 
 .services__item{
@@ -105,13 +105,18 @@ a.button--clear{
 a.button--clear:hover{
   background: #F5170E;
   color: #FFF;
+  transition: 0.3s;
 }
 
 .services__paginator{
   color:#000;
 }
 
-a.paginator__link:hover{
+.services__paginator .paginator__display{
+  padding-left: 12px;
+}
+
+.services__paginator a.paginator__link:hover{
   color: #fff;
   background: #F5170E;
   border-radius: 50%;
@@ -149,6 +154,7 @@ a.paginator__link:hover{
 
 .partners__item:hover{
   filter: grayscale(0);
+  transition: 0.3s;
 }
 
 .services__footer{

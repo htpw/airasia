@@ -34,6 +34,7 @@ body {
 button {
 	border: 0;
 	cursor: pointer;
+	background: transparent;
 }
 
 * {
@@ -110,30 +111,85 @@ address{
 }
 
 .contacts{
+	position: relative;
 	padding-top: 12px;
 }
 
 .contacts__phone{
 	font-weight: 400;
 	font-size: 26px;
-	/*line-height: 30px;*/
+	line-height: 30px;
 }
 
 .contacts__info{
 	font-weight: 400;
 	font-size: 13px;
-	line-height: 20px;
+	line-height: 1;
+	padding-right: 3px;
 	text-align: end;
 	text-decoration: underline;
 }
 
-	.paginator__link{
-	display: inline-block;
+.contacts__info:hover .contacts__schedule{
+	left: 32px;
+	opacity: 1;
+}
+
+.contacts__schedule{
+	position: absolute;
+	top: 66px;
+	right: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	height: 68px;
+	width: 157px;
+	padding-left: 17px;
+	background-color: rgba(237, 237, 237, 0.8);
+	border-radius: 4px;
+	cursor: pointer;
+	left: -9999px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.contacts__schedule::after{
+	position: absolute;
+	bottom: 68px;
+	right: 40px;
+	content: "";
+	border: 12px solid	transparent;
+	border-bottom-color: rgba(237, 237, 237, 0.8);
+}
+
+.contacts__schedule::before{
+	content: "";
+	height: 12px;
+	width: 100%;
+	position: absolute;
+	top: -12px;
+	left: 0px;
+}
+
+.contacts__work{
+	color: #1E1F20;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 21px;
+}
+
+.contacts__dinner{
+	color: #1E1F20;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 21px;
 }
 
 .paginator{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
@@ -141,33 +197,65 @@ address{
 
 .paginator__display{
 	margin-right: 25px;
+	padding-left: 7px;
 }
 
 .paginator__list{
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .paginator__item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 21px;
-	text-align: center;
+	padding-right: 2px;	
 }
 
 .paginator__link{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 32px;
 	height: 32px;
+	/*transform: translate(-50%,-50%);*/
+}
+
+a.paginator__link{
+	background: transparent;
 }
 
 a.paginator__link:hover{
  	color: #F5170E;
   background: #FFF;
   border-radius: 50%;
+	transition: background 0.3s, color 0.3s;
 }
 
-paginator__item:last-child{
+.paginator__item:last-child{
 	margin-right: 0px;
 }
 
+.btn{
+	padding: 18px 40px;
+	color: #FFF;
+	background: #F5170E;
+	border-radius: 35px;
+	height: 55px;
+	width: 168px;
+}
+
+.btn--gray{
+	background: #8E8E8E;
+}
+
+.btn--gray:hover{
+ background: #2B2B2B;
+ transition: 0.3s;
+}
 
 

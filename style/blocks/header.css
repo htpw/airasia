@@ -1,5 +1,5 @@
 .header{
-  padding-bottom: 115px;
+  padding-bottom: 124px;
 }
 
 .header__container{
@@ -21,4 +21,5 @@
 
 a.menu__link:hover{
   color: #DA0100;
+  transition: 0.3s;
 }

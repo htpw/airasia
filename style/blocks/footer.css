@@ -40,6 +40,46 @@ align-items: flex-start;
   margin-right: 0px;
 }
 
+.footer__social-tg{
+  width: 36px; height: 36px;
+  background: url(../../img/sprite.png) -122px -10px;
+}
+
+.footer__social-tg:hover{
+  width: 36px; height: 36px;
+  background: url(../../img/sprite.png)-122px -66px;
+}
+
+.footer__social-vk{
+  width: 36px; height: 36px;
+  background: url(../../img/sprite.png) -10px -122px;
+}
+
+.footer__social-vk:hover{
+  width: 36px; height: 36px;
+  background: url(../../img/sprite.png) -66px -122px;
+}
+
+.footer__social-fb{
+  width: 36px; height: 36px;
+  background: url(../../img/sprite.png) -10px -10px;
+}
+
+.footer__social-fb:hover{
+  width: 36px; height: 36px;
+  background: url(../../img/sprite.png) -66px -10px;
+}
+
+.footer__social-in{
+  width: 36px; height: 36px;
+  background: url(../../img/sprite.png) -10px -66px;
+}
+
+.footer__social-in:hover{
+  width: 36px; height: 36px;
+  background: url(../../img/sprite.png) -66px -66px;
+}
+
 .footer__contacts-free{
   font-weight: 400;
   font-size: 11px;
