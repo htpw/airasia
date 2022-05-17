@@ -1,5 +1,6 @@
 .welcome{
   background: url(../../img/shades.png) 665px 356px  no-repeat, url(../../img/bg.png) no-repeat;
+  background-size: auto, cover;
 }
 
 .welcome__content{
